@@ -1,3 +1,5 @@
+import 'package:firebase_crud_tutorial/firebase_read_data.dart';
+import 'package:firebase_crud_tutorial/firebase_update_data.dart';
 import 'package:firebase_crud_tutorial/firebase_write_data.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter CRUD Tutorial',
-      home: FirebaseWriteData(),
+      home: FirebaseReadData(),
     );
   }
 }
