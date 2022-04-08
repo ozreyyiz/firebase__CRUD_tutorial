@@ -10,7 +10,7 @@ class User {
       {this.id = "",
       required this.name,
       required this.age,
-      required this.birthday}) {}
+      required this.birthday});
 
   Map<String, dynamic> toJson() => {
         "id": id,
